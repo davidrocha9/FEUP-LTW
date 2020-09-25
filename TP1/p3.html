@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-PT">
+	<head>
+		<title> Personal Info Form </title>
+        <meta charset="UTF-8">
+	</head>
+	
+	<body>
+		<form action="action.php" method="GET">
+			<div>
+                <label> Name: </label>
+				<input type="text" name="name">
+			</div>
+			
+			&nbsp;
+			
+			<div>
+				<label> Age: </label>
+				<input type="radio" name="age" value="<18"> &lt;18
+				<input type="radio" name="age" value="19-35"> 19-35 
+				<input type="radio" name="age" value="36-48"> 36-48
+				<input type="radio" name="age" value=">49"> &gt;49
+			</div>
+			
+			&nbsp;
+			
+			<div>
+                <label> Profession: </label>
+				<input type="text" name="profession">
+			</div>
+			
+			&nbsp;
+			
+			<div>
+				<label> Country: </label>
+				<select name="country">
+					<option value="portugal">Portugal</option>
+					<option value="spain">Spain</option>
+					<option value="france">France</option>
+					<option value="spain">Spain</option>
+					<option value="germany">Germany</option>
+				</select>
+			</div>
+			
+			&nbsp;
+			
+			<div>
+				<label> Interests: </label>
+				<input type="checkbox" name="vehicle" value="sports">Sports
+				<input type="checkbox" name="vehicle" value="books">Books
+				<input type="checkbox" name="vehicle" value="technology">Technology
+				<input type="checkbox" name="vehicle" value="arts">Arts
+				<input type="checkbox" name="vehicle" value="music">Music
+			</div>
+			
+			&nbsp;
+			
+			<div>
+				<textarea name="description" rows="4" cols="50"> How did you find us? </textarea>
+			</div>
+			
+			&nbsp;
+			
+			<div>
+                <input type="submit" value="Submit">
+            </div>
+			
+		</form>
+	</body>
+</html>
